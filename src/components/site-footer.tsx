@@ -9,12 +9,13 @@ export function SiteFooter() {
         <div className="space-y-4">
           <p className="font-serif text-2xl tracking-[0.12em] text-white">BOYING</p>
           <p className="max-w-xl text-sm leading-7 text-stone-300">
-            Professional OEM ODM clothing manufacturer in Guangzhou, China,
-            serving fashion brands, wholesalers, and private label buyers with
-            dependable outerwear development and production.
+            Guangzhou Boying Garment Co Ltd is an OEM ODM garment manufacturer
+            in China serving fashion brands, wholesalers, private label buyers,
+            and custom buyers with dependable development and production
+            support.
           </p>
           <p className="text-sm text-stone-400">
-            广州博颖制衣有限公司 | 专注外套开发与生产的国际服装制造商
+            {"\u5e7f\u5dde\u535a\u9896\u5236\u8863\u6709\u9650\u516c\u53f8 | \u4e13\u6ce8\u5916\u5957\u4e0e\u65f6\u5c1a\u670d\u88c5\u5f00\u53d1\u751f\u4ea7\u7684\u56fd\u9645\u670d\u88c5\u5236\u9020\u5546"}
           </p>
         </div>
 
@@ -50,6 +51,9 @@ export function SiteFooter() {
             <a href={siteConfig.alibaba} target="_blank" rel="noreferrer" className="block hover:text-white">
               Alibaba Store
             </a>
+            <p className="text-xs leading-6 text-stone-400">
+              Replace the Alibaba URL in `src/data/site.ts` with your actual store link.
+            </p>
           </div>
         </div>
       </div>

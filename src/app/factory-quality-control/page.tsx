@@ -15,21 +15,21 @@ export const metadata: Metadata = getMetadata({
 const factoryBlocks = [
   {
     title: "Sample Development",
-    cn: "样衣开发",
+    cn: "\u6837\u8863\u5f00\u53d1",
     description:
-      "Pattern review, sample making, and workmanship validation help buyers approve styles more efficiently before bulk production starts.",
+      "Pattern review, sample making, and workmanship validation help buyers approve styles more efficiently before bulk production begins.",
     image: "/placeholders/sample-room.svg",
   },
   {
     title: "Production Management",
-    cn: "生产管理",
+    cn: "\u751f\u4ea7\u7ba1\u7406",
     description:
       "Production planning and line control help keep timelines clearer, workmanship more stable, and communication more practical during execution.",
     image: "/placeholders/production-floor.svg",
   },
   {
     title: "Final Inspection",
-    cn: "尾查与出货",
+    cn: "\u5c3e\u67e5\u4e0e\u51fa\u8d27",
     description:
       "Finished goods are checked for appearance, measurement, and packing consistency before shipment to better match buyer expectations.",
     image: "/placeholders/final-inspection.svg",
@@ -71,9 +71,9 @@ export default function FactoryPage() {
       <div className="mt-12 rounded-[2rem] border border-[var(--line)] bg-[rgba(255,255,255,0.82)] p-8">
         <h2 className="font-serif text-4xl text-[var(--navy)]">Quality Control Checklist</h2>
         <p className="mt-4 max-w-3xl text-sm leading-7 text-[var(--muted)]">
-          These checkpoints show the type of control global B2B buyers expect
-          from a professional garment manufacturer handling export orders and
-          repeat production programs.
+          These checkpoints reflect the level of control global B2B buyers
+          expect from a professional garment manufacturer handling export orders,
+          repeat production, and private label programs.
         </p>
         <div className="mt-6 grid gap-4 md:grid-cols-2">
           {qualityPoints.map((point) => (

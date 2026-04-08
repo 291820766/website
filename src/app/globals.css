@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f6f0e8;
+  --background: #f4ede4;
   --foreground: #17202b;
-  --navy: #142233;
-  --navy-soft: #223549;
-  --muted: #5e6976;
-  --line: rgba(20, 34, 51, 0.12);
-  --panel: rgba(255, 255, 255, 0.78);
-  --accent: #d8b48f;
-  --accent-strong: #e6c4a1;
-  --accent-deep: #9b6d42;
+  --navy: #122131;
+  --navy-soft: #203346;
+  --muted: #596574;
+  --line: rgba(18, 33, 49, 0.12);
+  --panel: rgba(255, 255, 255, 0.8);
+  --accent: #cda57b;
+  --accent-strong: #dbb792;
+  --accent-deep: #91633d;
 }
 
 @theme inline {
@@ -31,8 +31,8 @@ html {
 body {
   margin: 0;
   background:
-    radial-gradient(circle at top, rgba(216, 180, 143, 0.22), transparent 28%),
-    linear-gradient(180deg, #fbf7f1 0%, #f4ede4 40%, #f8f4ee 100%);
+    radial-gradient(circle at top, rgba(205, 165, 123, 0.26), transparent 28%),
+    linear-gradient(180deg, #faf6f0 0%, #f3ebdf 42%, #f8f4ee 100%);
   color: var(--foreground);
   font-family: var(--font-manrope), sans-serif;
 }
@@ -76,8 +76,8 @@ a {
 }
 
 .input-field:focus {
-  border-color: rgba(155, 109, 66, 0.58);
-  box-shadow: 0 0 0 4px rgba(216, 180, 143, 0.18);
+  border-color: rgba(145, 99, 61, 0.58);
+  box-shadow: 0 0 0 4px rgba(205, 165, 123, 0.18);
 }
 
 @media (min-width: 1024px) {

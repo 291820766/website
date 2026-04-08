@@ -7,15 +7,15 @@ import { getMetadata } from "@/lib/metadata";
 export const metadata: Metadata = getMetadata({
   title: "OEM ODM Service | Boying Garment",
   description:
-    "Discover Guangzhou Boying Garment Co Ltd's OEM and ODM service workflow for brands, wholesalers, private label clients, and custom buyers.",
+    "Discover Guangzhou Boying Garment Co Ltd's OEM ODM service workflow for fashion brands, wholesalers, private label buyers, and custom buyers.",
   path: "/oem-odm-service",
 });
 
 const capabilities = [
-  "OEM production based on your tech pack, approved sample, size chart, and branding requirements.",
-  "ODM support with style development, material suggestions, trim selection, and commercial product adaptation.",
+  "OEM production based on your tech pack, approved sample, measurement standards, and branding requirements.",
+  "ODM support with style development, fabric and trim suggestions, construction advice, and commercially relevant product adaptation.",
   "Private label customization including labels, hangtags, care labels, packaging, and buyer-specific finishing details.",
-  "Structured project communication covering sample comments, lead time coordination, order approval, and shipment follow-up.",
+  "Structured project communication covering sample comments, lead time coordination, order confirmation, and shipment follow-up.",
 ];
 
 export default function ServicePage() {
@@ -23,8 +23,8 @@ export default function ServicePage() {
     <div className="section py-14 lg:px-8 lg:py-20">
       <SectionHeading
         eyebrow={"OEM ODM Service / OEM ODM\u670d\u52a1"}
-        title="A clear and practical development process for global apparel buyers."
-        subtitle="Our service model is designed for buyers who need reliable execution, transparent communication, and a factory partner that can move efficiently from idea to bulk production."
+        title="A clear and practical service process for global apparel buyers."
+        subtitle="Our OEM ODM model is designed for buyers who need reliable execution, transparent communication, and a factory partner that can move efficiently from concept to bulk production."
       />
 
       <div className="mt-10 grid gap-6 lg:grid-cols-[0.85fr_1.15fr]">
@@ -67,17 +67,17 @@ export default function ServicePage() {
         <h2 className="font-serif text-4xl text-[var(--navy)]">How We Work with Buyers</h2>
         <div className="mt-6 grid gap-4 md:grid-cols-2">
           <div className="rounded-[1.25rem] border border-[var(--line)] bg-[rgba(246,240,232,0.72)] px-5 py-4 text-sm leading-7 text-[var(--navy)]">
-            We confirm product details early to reduce revisions later and help
-            buyers evaluate feasibility, cost level, and production direction.
+            We confirm product details early to reduce later revisions and help
+            buyers evaluate feasibility, target cost level, and development direction.
           </div>
           <div className="rounded-[1.25rem] border border-[var(--line)] bg-[rgba(246,240,232,0.72)] px-5 py-4 text-sm leading-7 text-[var(--navy)]">
-            We manage the workflow in a practical way, so approvals, comments,
-            and production updates remain clear throughout the project.
+            We manage the workflow in a practical way so approvals, comments,
+            production updates, and delivery expectations remain clear throughout the project.
           </div>
           <div className="rounded-[1.25rem] border border-[var(--line)] bg-[rgba(246,240,232,0.72)] px-5 py-4 text-sm leading-7 text-[var(--navy)]">
             Whether the buyer is building a new private label line or scaling an
-            established collection, our process is designed to support repeatable
-            production and stable quality.
+            established collection, our process is designed to support consistent
+            production standards and repeatable quality.
           </div>
           <div className="rounded-[1.25rem] border border-[var(--line)] bg-[rgba(246,240,232,0.72)] px-5 py-4 text-sm leading-7 text-[var(--navy)]">
             {"\u901a\u8fc7\u6e05\u6670\u7684\u6c9f\u901a\u3001\u89c4\u8303\u7684\u6253\u6837\u6d41\u7a0b\u548c\u7a33\u5b9a\u7684\u5927\u8d27\u7ba1\u7406\uff0c\u6211\u4eec\u5e2e\u52a9\u5ba2\u6237\u66f4\u5b89\u5fc3\u5730\u63a8\u8fdb\u5408\u4f5c\u3002"}

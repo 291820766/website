@@ -9,9 +9,9 @@ import { companyFacts, qualityPoints, strengths, workflow } from "@/data/site";
 import { getMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = getMetadata({
-  title: "OEM ODM Clothing Manufacturer in China | Guangzhou Boying Garment",
+  title: "OEM ODM Garment Manufacturer in China | Guangzhou Boying Garment",
   description:
-    "Guangzhou Boying Garment Co Ltd is a professional OEM ODM garment manufacturer specializing in down jackets, wool coats, windbreaker jackets, and fashion dresses for global B2B buyers.",
+    "Guangzhou Boying Garment Co Ltd is an OEM ODM garment manufacturer in China specializing in down jackets, wool coats, windbreaker jackets, and fashion dresses for global B2B buyers.",
 });
 
 export default function HomePage() {
@@ -21,18 +21,22 @@ export default function HomePage() {
         <div className="hero-grid overflow-hidden rounded-[2rem] border border-white/45 bg-[var(--navy)] px-8 py-10 shadow-[0_35px_120px_rgba(20,34,51,0.28)] lg:px-12 lg:py-14">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.34em] text-[var(--accent)]">
-              Guangzhou Boying Garment Co Ltd
+              OEM ODM Garment Manufacturer in China
             </p>
             <h1 className="mt-5 max-w-4xl font-serif text-5xl leading-none text-white md:text-7xl">
-              Premium OEM and ODM garment manufacturing for global fashion buyers.
+              Elegant outerwear and fashion manufacturing for global B2B buyers.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-300">
-              We help brands, wholesalers, private label clients, and custom
-              buyers develop and produce commercially strong outerwear and
-              fashion apparel with reliable factory execution in China.
+              Guangzhou Boying Garment Co Ltd supports fashion brands,
+              wholesalers, private label buyers, and custom buyers with
+              dependable OEM and ODM development for down jackets, wool coats,
+              windbreaker jackets, and fashion dresses.
             </p>
             <p className="mt-4 max-w-2xl text-sm leading-7 text-stone-400">
-              {"\u5e7f\u5dde\u535a\u9896\u5236\u8863\u6709\u9650\u516c\u53f8\u4e13\u6ce8\u4e8e\u5916\u5957\u4e0e\u65f6\u5c1a\u670d\u88c5\u5f00\u53d1\u751f\u4ea7\uff0c\u4e3a\u5168\u7403\u5ba2\u6237\u63d0\u4f9b\u4e13\u4e1a\u3001\u7a33\u5b9a\u3001\u53ef\u4fe1\u8d56\u7684OEM\u4e0eODM\u5236\u9020\u670d\u52a1\u3002"}
+              {"\u5e7f\u5dde\u535a\u9896\u5236\u8863\u6709\u9650\u516c\u53f8\u4e13\u6ce8OEM\u4e0eODM\u670d\u88c5\u5236\u9020\uff0c\u4e3a\u5168\u7403\u54c1\u724c\u3001\u6279\u53d1\u5546\u3001\u79c1\u4eba\u54c1\u724c\u5ba2\u6237\u548c\u5b9a\u5236\u91c7\u8d2d\u5546\u63d0\u4f9b\u7a33\u5b9a\u3001\u4e13\u4e1a\u7684\u5916\u5957\u4e0e\u65f6\u5c1a\u670d\u88c5\u751f\u4ea7\u670d\u52a1\u3002"}
+            </p>
+            <p className="mt-6 max-w-2xl text-sm uppercase tracking-[0.28em] text-stone-400">
+              Down Jackets / Wool Coats / Windbreaker Jackets / Fashion Dresses
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -40,13 +44,13 @@ export default function HomePage() {
                 href="/contact#inquiry"
                 className="inline-flex items-center justify-center rounded-full bg-[var(--accent)] px-6 py-3 text-sm font-semibold text-[var(--navy)] transition hover:bg-[var(--accent-strong)]"
               >
-                Send Your Inquiry
+                Request a Quote
               </Link>
               <Link
                 href="/products"
                 className="inline-flex items-center justify-center rounded-full border border-white/20 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/8"
               >
-                View Product Categories
+                Explore Collections
               </Link>
             </div>
 
@@ -77,8 +81,8 @@ export default function HomePage() {
       <section className="section py-16 lg:px-8 lg:py-20">
         <SectionHeading
           eyebrow={"Product Categories / \u6838\u5fc3\u4ea7\u54c1"}
-          title="Core categories developed for outerwear-led fashion collections."
-          subtitle="Our main product focus includes down jackets, wool coats, windbreaker jackets, and fashion dresses for export business, private label development, and volume production."
+          title="Core categories developed for export-ready fashion and outerwear programs."
+          subtitle="We focus on product lines that help international buyers source with more confidence, from fashion outerwear statements to commercially balanced collection essentials."
         />
         <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {productCategories.map((product) => (
@@ -111,8 +115,8 @@ export default function HomePage() {
           <div className="glass-panel rounded-[2rem] border border-white/50 p-8">
             <SectionHeading
               eyebrow={"Why Boying / \u4e3a\u4ec0\u4e48\u9009\u62e9\u535a\u9896"}
-              title="A professional and trustworthy factory partner for international apparel sourcing."
-              subtitle="Our positioning is built around product focus, dependable execution, responsive communication, and a presentation style that supports serious B2B buyer evaluation."
+              title="A modern manufacturing partner with the discipline global buyers expect."
+              subtitle="Boying is positioned to present product capability, export readiness, and factory reliability in a way that feels professional, fashion-focused, and easy for B2B buyers to evaluate."
             />
           </div>
           <div className="grid gap-5 md:grid-cols-2">
@@ -136,14 +140,14 @@ export default function HomePage() {
         <div className="mb-10 flex items-end justify-between gap-6">
           <SectionHeading
             eyebrow={"Sample Styles / \u6837\u54c1\u793a\u4f8b"}
-            title="Sample product presentation for brands, buyers, and private label sourcing teams."
-            subtitle="This section shows how Boying can present product information clearly for quotations, development discussions, and range planning."
+            title="Sample product presentation for quotations, development review, and collection planning."
+            subtitle="Clear product presentation helps buyers move faster when comparing styles, discussing development direction, and evaluating manufacturing fit."
           />
           <Link
             href="/products"
             className="hidden rounded-full border border-[var(--line)] px-6 py-3 text-sm font-semibold text-[var(--navy)] transition hover:bg-white lg:inline-flex"
           >
-            Explore More Products
+            View Full Product Page
           </Link>
         </div>
         <ProductGrid />
@@ -152,8 +156,8 @@ export default function HomePage() {
       <section className="section py-16 lg:px-8">
         <SectionHeading
           eyebrow={"OEM ODM Workflow / \u5408\u4f5c\u6d41\u7a0b"}
-          title="A clear workflow designed for efficient buyer communication and dependable production."
-          subtitle="From requirement confirmation to shipment, our process is structured to reduce misunderstanding, improve approval speed, and support repeat orders."
+          title="A clear workflow built for efficient communication, controlled development, and stable production."
+          subtitle="From inquiry to shipment, each stage is designed to reduce uncertainty, keep approvals organized, and support professional cooperation with overseas buyers."
           align="center"
         />
         <div className="mt-10 grid gap-5 lg:grid-cols-5">
@@ -183,7 +187,7 @@ export default function HomePage() {
             <SectionHeading
               eyebrow={"Factory & Quality / \u5de5\u5382\u4e0e\u54c1\u8d28"}
               title="Factory discipline and quality control that support long-term buyer confidence."
-              subtitle="For global B2B buyers, consistent workmanship and process control matter as much as product design. Our quality checkpoints are built to support stable bulk production."
+              subtitle="For global B2B buyers, consistent workmanship, process control, and practical communication are as important as product design. Our approach is built to support repeat business."
             />
             <div className="mt-8 grid gap-4">
               {qualityPoints.map((point) => (
@@ -200,13 +204,13 @@ export default function HomePage() {
                 href="/factory-quality-control"
                 className="rounded-full bg-[var(--navy)] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[var(--navy-soft)]"
               >
-                Learn About Factory Strength
+                View Factory Capability
               </Link>
               <Link
                 href="/contact#inquiry"
                 className="rounded-full border border-[var(--line)] px-6 py-3 text-sm font-semibold text-[var(--navy)] transition hover:bg-stone-50"
               >
-                Start Your Project
+                Send an Inquiry
               </Link>
             </div>
           </div>

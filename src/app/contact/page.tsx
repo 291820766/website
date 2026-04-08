@@ -20,18 +20,18 @@ export default function ContactPage() {
             {"Contact / \u8054\u7cfb\u6211\u4eec"}
           </p>
           <h1 className="mt-4 font-serif text-5xl leading-none md:text-6xl">
-            Tell us what you want to develop, and we will help you move the project forward.
+            Share your project brief and let us help you move from inquiry to production with confidence.
           </h1>
           <p className="mt-6 text-lg leading-8 text-stone-300">
             If you are looking for a professional garment manufacturer for down
-            jackets, wool coats, windbreaker jackets, or fashion dresses, send us
-            your inquiry with product details, target quantity, timeline, and
-            service needs.
+            jackets, wool coats, windbreaker jackets, or fashion dresses, send
+            us your inquiry with product details, target quantity, delivery
+            timing, and OEM ODM requirements.
           </p>
           <p className="mt-4 text-sm leading-7 text-stone-400">
-            We welcome inquiries from brands, wholesalers, private label clients,
-            and custom buyers who need a responsive and trustworthy production
-            partner in China.
+            We welcome inquiries from fashion brands, wholesalers, private label
+            buyers, and custom buyers who need a responsive and trustworthy
+            garment manufacturing partner in China.
           </p>
           <p className="mt-4 text-sm leading-7 text-stone-400">
             {"\u6b22\u8fce\u54c1\u724c\u65b9\u3001\u6279\u53d1\u5546\u3001\u81ea\u6709\u54c1\u724c\u5ba2\u6237\u548c\u5b9a\u5236\u91c7\u8d2d\u5546\u8054\u7cfb\u6211\u4eec\u3002\u8bf7\u63d0\u4ea4\u60a8\u7684\u4ea7\u54c1\u9700\u6c42\u3001\u6570\u91cf\u3001\u4ea4\u671f\u548c\u5408\u4f5c\u65b9\u5411\u3002"}

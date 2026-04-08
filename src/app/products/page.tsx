@@ -18,8 +18,8 @@ export default function ProductsPage() {
     <div className="section py-14 lg:px-8 lg:py-20">
       <SectionHeading
         eyebrow={"Products / \u4ea7\u54c1\u4e2d\u5fc3"}
-        title="Main product categories for brands, wholesalers, and private label buyers."
-        subtitle="Our core product offering is built around commercially strong outerwear and fashion categories that are suitable for export business, collection development, and repeat production."
+        title="Main product categories for fashion brands, wholesalers, and private label buyers."
+        subtitle="Our product range is built around categories with strong global demand, balancing fashion direction, manufacturing practicality, and commercial potential for export business."
       />
 
       <div className="mt-10 grid gap-8">
@@ -45,9 +45,9 @@ export default function ProductsPage() {
                 {product.description}
               </p>
               <p className="mt-4 max-w-2xl text-sm leading-7 text-[var(--muted)]">
-                Suitable for OEM manufacturing, ODM development, and private label
-                customization with buyer-specific requirements for fabric, trims,
-                labels, packaging, and target market positioning.
+                Suitable for OEM production, ODM development, and private label
+                customization with buyer-specific requirements for fabric,
+                trims, labels, packaging, and target market positioning.
               </p>
             </div>
           </section>
@@ -57,8 +57,8 @@ export default function ProductsPage() {
       <section className="mt-14">
         <SectionHeading
           eyebrow={"Sample Product Data / \u6837\u54c1\u6570\u636e"}
-          title="A sample presentation format that supports fast buyer evaluation."
-          subtitle="These sample SKUs show how product information can be organized clearly for quotation discussions, development review, and factory communication."
+          title="A sample presentation format that supports faster buyer evaluation."
+          subtitle="These sample SKUs show how product information can be organized clearly for quotation discussions, development review, and sourcing communication."
         />
         <div className="mt-10">
           <ProductGrid />
