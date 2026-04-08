@@ -6,7 +6,7 @@ export const siteConfig = {
   domain: "https://www.boyinggarment.com",
   email: "sales@boyinggarment.com",
   whatsapp: "https://wa.me/8613800000000",
-  alibaba: "https://www.alibaba.com/",
+  alibaba: "https://gzboying.en.alibaba.com/",
   phone: "+86 138 0000 0000",
   location: "Guangzhou, China",
 };

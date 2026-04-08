@@ -51,9 +51,6 @@ export function SiteFooter() {
             <a href={siteConfig.alibaba} target="_blank" rel="noreferrer" className="block hover:text-white">
               Alibaba Store
             </a>
-            <p className="text-xs leading-6 text-stone-400">
-              Replace the Alibaba URL in `src/data/site.ts` with your actual store link.
-            </p>
           </div>
         </div>
       </div>
