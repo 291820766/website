@@ -1,8 +1,8 @@
 export const siteConfig = {
-  name: "Guangzhou Boying Garment Co Ltd",
+  name: "Guangzhou Boying Clothing Co Ltd",
   shortName: "Boying Garment",
   description:
-    "Guangzhou Boying Garment Co Ltd is an OEM ODM garment manufacturer in China specializing in down jackets, wool coats, windbreaker jackets, and fashion dresses for global fashion brands, wholesalers, private label buyers, and custom buyers.",
+    "Guangzhou Boying Clothing Co Ltd is an OEM ODM garment manufacturer in China specializing in down jackets, woolen overcoats, windbreaker jackets, and maxidresses for global fashion brands, wholesalers, private label buyers, and custom buyers.",
   domain: "https://www.boyinggarment.com",
   email: "sales@boyinggarment.com",
   whatsapp: "https://wa.me/8613800000000",

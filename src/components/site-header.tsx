@@ -16,7 +16,7 @@ export function SiteHeader() {
         <Link href="/" className="max-w-[15rem]">
           <div className="font-serif text-2xl tracking-[0.12em] text-white">BOYING</div>
           <div className="text-xs uppercase tracking-[0.24em] text-stone-300">
-            Guangzhou Boying Garment
+            Guangzhou Boying Clothing
           </div>
         </Link>
 
