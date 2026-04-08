@@ -82,65 +82,64 @@ export const metadata: Metadata = getMetadata({
 export default function HomePage() {
   return (
     <div>
-      <section className="section py-10 lg:px-8 lg:py-16">
-        <div className="overflow-hidden rounded-[2.5rem] border border-white/50 bg-[linear-gradient(135deg,rgba(18,33,49,1)_0%,rgba(18,33,49,0.95)_48%,rgba(36,53,69,0.95)_100%)] px-8 py-10 shadow-[0_40px_140px_rgba(18,33,49,0.24)] lg:px-12 lg:py-14">
-          <div className="hero-grid">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.34em] text-[var(--accent)]">
-                Guangzhou Boying Clothing Co Ltd
+      <section className="relative overflow-hidden bg-[linear-gradient(180deg,#fcf8f2_0%,#f3ebdf_100%)]">
+        <div className="absolute left-0 top-0 h-56 w-full bg-[radial-gradient(circle_at_15%_20%,rgba(205,165,123,0.16),transparent_42%)]" />
+        <div className="section lg:px-8">
+          <div className="grid gap-12 py-12 lg:min-h-[calc(100vh-88px)] lg:grid-cols-[0.86fr_1.14fr] lg:items-center lg:gap-20 lg:py-16">
+            <div className="flex flex-col justify-center">
+              <p className="text-[11px] font-semibold uppercase tracking-[0.4em] text-[var(--accent-deep)]">
+                GUANGZHOU BOYING CLOTHING CO LTD
               </p>
-              <h1 className="mt-5 max-w-4xl font-serif text-5xl leading-none text-white md:text-7xl">
-                Premium fashion manufacturing for brands that expect elegance, control, and export-ready execution.
+              <h1 className="mt-7 max-w-3xl font-serif text-5xl leading-[0.9] text-[#1a2028] md:text-7xl xl:text-[5.4rem]">
+                Premium OEM ODM Outerwear Manufacturing
               </h1>
-              <p className="mt-6 max-w-2xl text-lg leading-8 text-stone-300">
-                Boying is an OEM ODM garment manufacturer in China specializing
-                in down jackets, woolen overcoats, windbreaker jackets, and
-                maxidresses for fashion brands, wholesalers, private label
-                buyers, and custom buyers worldwide.
-              </p>
-              <p className="mt-4 max-w-2xl text-sm leading-7 text-stone-400">
-                {"\u5e7f\u5dde\u535a\u9896\u670d\u88c5\u6709\u9650\u516c\u53f8\u4e13\u6ce8\u5916\u5957\u4e0e\u5973\u88c5\u5f00\u53d1\u751f\u4ea7\uff0c\u4e3a\u5168\u7403\u54c1\u724c\u3001\u6279\u53d1\u5546\u3001\u79c1\u4eba\u54c1\u724c\u4e70\u5bb6\u548c\u5b9a\u5236\u91c7\u8d2d\u5546\u63d0\u4f9b\u7a33\u5b9a\u3001\u4e13\u4e1a\u7684OEM\u4e0eODM\u670d\u52a1\u3002"}
+              <p className="mt-8 max-w-2xl text-lg leading-8 text-[var(--muted)]">
+                For brands, wholesalers, and private label buyers who need refined
+                product development, reliable production, and export-ready
+                execution from China.
               </p>
 
-              <div className="mt-9 flex flex-col gap-4 sm:flex-row">
+              <div className="mt-11 flex flex-col gap-3 sm:flex-row">
                 <Link
                   href="/contact#inquiry"
-                  className="inline-flex items-center justify-center rounded-full bg-[var(--accent)] px-7 py-3.5 text-sm font-semibold text-[var(--navy)] transition hover:bg-[var(--accent-strong)]"
+                  className="inline-flex items-center justify-center rounded-full bg-[var(--navy)] px-7 py-3 text-sm font-semibold text-white transition hover:bg-[var(--navy-soft)]"
                 >
                   Send Inquiry
                 </Link>
                 <Link
                   href="/products"
-                  className="inline-flex items-center justify-center rounded-full border border-white/18 px-7 py-3.5 text-sm font-semibold text-white transition hover:bg-white/8"
+                  className="inline-flex items-center justify-center rounded-full border border-[rgba(18,33,49,0.14)] px-7 py-3 text-sm font-semibold text-[var(--navy)] transition hover:border-[var(--navy)] hover:bg-white/70"
                 >
                   View Products
                 </Link>
               </div>
 
-              <div className="mt-10 grid gap-4 sm:grid-cols-3">
-                <div className="rounded-[1.5rem] border border-white/10 bg-white/6 px-5 py-5">
-                  <p className="text-xs uppercase tracking-[0.25em] text-stone-400">Export Experience</p>
-                  <p className="mt-2 text-lg font-semibold text-white">12 Years</p>
+              <div className="mt-12 grid gap-4 sm:grid-cols-3">
+                <div className="border-t border-[rgba(18,33,49,0.12)] pt-4">
+                  <p className="text-sm font-medium text-[var(--navy)]">12 Years Exporting</p>
                 </div>
-                <div className="rounded-[1.5rem] border border-white/10 bg-white/6 px-5 py-5">
-                  <p className="text-xs uppercase tracking-[0.25em] text-stone-400">Factory Space</p>
-                  <p className="mt-2 text-lg font-semibold text-white">12,023 m²</p>
+                <div className="border-t border-[rgba(18,33,49,0.12)] pt-4">
+                  <p className="text-sm font-medium text-[var(--navy)]">12023 square meter factory</p>
                 </div>
-                <div className="rounded-[1.5rem] border border-white/10 bg-white/6 px-5 py-5">
-                  <p className="text-xs uppercase tracking-[0.25em] text-stone-400">Annual Export Revenue</p>
-                  <p className="mt-2 text-lg font-semibold text-white">USD 1.2M</p>
+                <div className="border-t border-[rgba(18,33,49,0.12)] pt-4">
+                  <p className="text-sm font-medium text-[var(--navy)]">
+                    Down Jackets Wool Coats Windbreakers Dresses
+                  </p>
                 </div>
               </div>
             </div>
 
-            <div className="relative">
-              <div className="absolute -right-8 top-0 h-40 w-40 rounded-full bg-[var(--accent)]/18 blur-3xl" />
-              <div className="absolute -left-8 bottom-8 h-32 w-32 rounded-full bg-white/8 blur-3xl" />
-              <PlaceholderImage
-                src="/placeholders/hero-fashion.svg"
-                alt="Premium showroom or collection placeholder"
-                label="Replace with premium showroom, collection, or factory image"
-                className="relative z-10 min-h-[500px] border-white/10 bg-white/12"
+            <div className="relative lg:min-h-[760px]">
+              <div className="absolute -left-8 top-20 h-40 w-40 rounded-full bg-[var(--accent)]/12 blur-3xl" />
+              <div className="absolute right-0 bottom-14 h-40 w-40 rounded-full bg-[var(--navy)]/7 blur-3xl" />
+              <div
+                className="relative min-h-[460px] overflow-hidden rounded-[1.25rem] bg-[#d8c6b5] lg:min-h-[760px]"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(180deg, rgba(18,33,49,0.02) 0%, rgba(18,33,49,0.14) 100%), url('https://images.unsplash.com/photo-1759090889533-d04bac321eb6?auto=format&fit=crop&w=1600&q=80')",
+                  backgroundPosition: "center top",
+                  backgroundSize: "cover",
+                }}
               />
             </div>
           </div>
